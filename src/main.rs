@@ -4,7 +4,7 @@ use clap::{arg, Command};
 use cliclack::{confirm, input, intro, note, outro, select};
 use console::style;
 mod utils;
-use utils::utils::{check_if_directory_empty, check_if_package_manager_installed};
+use utils::{check_if_directory_empty, check_if_package_manager_installed};
 
 fn main() {
     let matches = Command::new("nisq")
